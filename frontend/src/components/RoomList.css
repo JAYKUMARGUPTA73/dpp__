@@ -1,0 +1,21 @@
+.room-box {
+    width: 10vh; 
+    height: 5vh; 
+    background-color: #ffffff39; 
+    border-radius: 4px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000; 
+    font-size: 14px;
+    cursor: pointer; 
+  }
+  .vacant{
+    background-color: #ffffff39; 
+  }
+  .filled{
+    background-color:green;
+  }
+  .filled-not-available{
+    background-color: yellow;
+  }
